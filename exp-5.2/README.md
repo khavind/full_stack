@@ -47,8 +47,12 @@ Practical implementation of lazy loading techniques.
 Difference between component-level and route-level lazy loading.
 
 Importance of reducing initial bundle size in SPAs.
-<img width="1920" height="1080" alt="Screenshot (152)" src="https://github.com/user-attachments/assets/9beccc21-f549-4984-92f5-cba460de7720" />
-<img width="1920" height="1080" alt="Screenshot (150)" src="https://github.com/user-attachments/assets/ba4633ab-1d1d-4303-ac5d-81204cff0ad7" />
-<img width="1920" height="1080" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/d1d7cb78-a041-402a-ae98-b0de7d164098" />
+
+Output: 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c76b8397-6190-42a0-9e51-0de5947ce60f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f882307f-eade-48de-b5f9-b61964cc2c5e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/71bc0120-5b72-4ede-9bb7-8a420fcab16c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/736dc27c-10af-4de0-acde-779e45f92360" />
+
 
 

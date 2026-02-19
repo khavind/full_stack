@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+🧪 Experiment 2 – Route-Based Lazy Loading in SPA 🎯 Aim
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To implement route-based lazy loading to improve performance in a React Single Page Application.
 
-## Available Scripts
+📖 Description
 
-In the project directory, you can run:
+In this experiment, lazy loading is applied to route components. Each route’s component is loaded only when the user navigates to that specific route.
 
-### `npm start`
+This approach ensures that only the required resources are loaded during navigation, making the application more scalable and efficient.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔍 What Was Implemented
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Configured routing for multiple pages.
 
-### `npm test`
+Applied lazy loading to route components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Wrapped routes with loading fallback handling.
 
-### `npm run build`
+Tested navigation behavior to verify dynamic loading.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ Outcome
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Faster initial page load.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Optimized memory usage.
 
-### `npm run eject`
+Efficient loading of route-specific components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠 Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React Router DOM
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+JavaScript (ES6+)
 
-## Learn More
+Node.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Vite / Create React App (based on setup)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📈 Key Learnings
 
-### Code Splitting
+Understanding of performance optimization in React applications.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Practical implementation of lazy loading techniques.
 
-### Analyzing the Bundle Size
+Difference between component-level and route-level lazy loading.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Importance of reducing initial bundle size in SPAs.
+<img width="1920" height="1080" alt="Screenshot (152)" src="https://github.com/user-attachments/assets/9beccc21-f549-4984-92f5-cba460de7720" />
+<img width="1920" height="1080" alt="Screenshot (150)" src="https://github.com/user-attachments/assets/ba4633ab-1d1d-4303-ac5d-81204cff0ad7" />
+<img width="1920" height="1080" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/d1d7cb78-a041-402a-ae98-b0de7d164098" />
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

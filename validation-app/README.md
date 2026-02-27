@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+**Client-Side Form Validation** 👇
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📝 Experiment–6.2: Client-Side Form Validation (React)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Aim
 
-### `npm start`
+To validate form inputs on the client side before submission using React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Software Requirements
 
-### `npm test`
+* Node.js
+* React
+* VS Code
+* Web Browser
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📖 Theory
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Client-side validation ensures that user inputs meet specific conditions **before the form is submitted**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+It provides:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Immediate feedback to users
+* Improved user experience
+* Reduced invalid submissions
+* No server interaction required for basic validation
 
-### `npm run eject`
+Validation is implemented using React state and conditional logic to check whether the input satisfies defined rules.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧪 Fields Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This experiment includes only two input fields:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Email ID**
+2. **Password**
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ✅ Validation Rules
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📧 Email Validation Conditions
 
-### Code Splitting
+* Must contain **@**
+* Must contain a valid domain such as:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  * `.com`
+  * `.in`
+  * Any valid country code (e.g., `.org`, `.net`, etc.)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🔐 Password Validation Conditions
 
-### Making a Progressive Web App
+The password must:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Start with a **Capital Letter**
+2. Contain **at least one number**
+3. Contain **at least one special character**
+4. Have a minimum of **5 characters**
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🚀 Features Implemented
 
-### Deployment
+* Real-time validation
+* Error messages displayed below input fields
+* Prevent form submission if validation fails
+* Clean and responsive UI
+* Interactive feedback for users
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🎨 UI Highlights
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Modern design
+* Smooth transitions
+* Highlighted error messages
+* Clean layout
+* Responsive form structure
+
+---
+
+## 📌 Key Concepts Used
+
+* React Functional Components
+* useState Hook
+* Event Handling
+* Conditional Rendering
+* Client-Side Validation Logic
+* Regular Expressions (Regex)
+* Form Submission Handling
+
+---
+
+## 📊 Result
+
+The form successfully validates user inputs on the client side before submission.
+
+* Invalid email formats are rejected.
+* Passwords that do not meet the required conditions are not accepted.
+* The form only submits when both fields satisfy all validation rules.
+
+---
+
+## 📸 Output Screenshot
+
+<img width="763" height="481" alt="image" src="https://github.com/user-attachments/assets/adf6f5e8-db1d-4687-82b8-f19e4ff8a61f" />
+<img width="598" height="472" alt="image" src="https://github.com/user-attachments/assets/30b799e5-86bf-4062-97e5-f62725570be0" />
+
+<img width="1166" height="685" alt="image" src="https://github.com/user-attachments/assets/ac838233-48cd-4d0e-8de1-9de64d0ee0d6" />
+
+

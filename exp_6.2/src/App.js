@@ -7,10 +7,11 @@ function App() {
   const [errors, setErrors] = useState({});
 
   // Email Validation
-  const validateEmail = (email) => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.(com|in|[a-z]{2,})$/;
-    return emailRegex.test(email);
-  };
+ const validateEmail = (email) => {
+  const emailRegex =
+    /^[a-zA-Z0-9]+([._%+-]?[a-zA-Z0-9]+)*@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$/;
+  return emailRegex.test(email);
+};
 
   // Password Validation
   const validatePassword = (password) => {

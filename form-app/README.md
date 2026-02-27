@@ -1,70 +1,146 @@
-# Getting Started with Create React App
+Handling Forms Using Controlled Components in React
+📌 Aim
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To create and handle forms in a frontend application using controlled components in React.
 
-## Available Scripts
+🛠️ Software Requirements
 
-In the project directory, you can run:
+Node.js
 
-### `npm start`
+React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+VS Code (or any code editor)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Web Browser (Chrome recommended)
 
-### `npm test`
+📖 Theory
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Controlled components are React components in which form data is handled by the component’s state.
 
-### `npm run build`
+In controlled components:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Form elements such as <input>, <textarea>, and <select> are controlled by React state.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The value of the input field is bound to a state variable.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Changes in the input field are handled using event handlers (e.g., onChange).
 
-### `npm run eject`
+This provides complete control over user input.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧪 Procedure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Create a React application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Create a form component.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Use useState hook to store input values.
 
-## Learn More
+Handle input change events using onChange.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Submit the form using an event handler (onSubmit).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔹 Introduction to Forms in React
 
-### Code Splitting
+Forms are an essential part of any web application. They allow users to input data such as names, emails, passwords, feedback, and more. In React, form handling is slightly different from traditional HTML because React uses a component-based architecture and manages UI using state.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🔹 Controlled Components
 
-### Analyzing the Bundle Size
+A controlled component is a form element whose value is controlled by React state.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In traditional HTML:
 
-### Making a Progressive Web App
+Form elements maintain their own internal state.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Data is usually accessed using DOM manipulation.
 
-### Advanced Configuration
+In React controlled components:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Form data is stored inside the component’s state using the useState hook.
 
-### Deployment
+The value attribute of the input field is bound to a state variable.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The onChange event updates the state whenever the user types.
 
-### `npm run build` fails to minify
+The React state becomes the "single source of truth".
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This approach gives full control over:
+
+Input validation
+
+Dynamic form updates
+
+Conditional rendering
+
+Real-time feedback
+
+🔹 Working Principle of Controlled Components
+
+A state variable is created using useState().
+
+The input field’s value is assigned to that state.
+
+An onChange event handler updates the state.
+
+When the state changes, React re-renders the component.
+
+The UI always reflects the latest state value.
+
+This ensures synchronization between:
+
+User Interface (UI)
+
+Component State
+
+🔹 Example Flow
+
+When a user types in a text field:
+
+User types a character.
+
+onChange event triggers.
+
+Event handler updates the state.
+
+React re-renders the component.
+
+Updated state is displayed in the input field.
+
+🔹 useState Hook in Form Handling
+
+The useState hook is used to:
+
+Store input values
+
+Update input values
+
+Manage multiple form fields
+
+Reset form after submission
+
+Example:
+
+const [name, setName] = useState("");
+
+Here:
+
+name stores the current value.
+
+setName() updates the value.
+
+🔹 Handling Multiple Inputs
+
+When handling multiple inputs, we use:
+
+A single state object
+
+The name attribute of inputs
+
+Dynamic key updates using computed properties
+
+## OUTPUT: 
+
+<img width="969" height="892" alt="image" src="https://github.com/user-attachments/assets/dee84775-135e-4d29-ac4c-47f041981ae1" />
+<img width="815" height="874" alt="image" src="https://github.com/user-attachments/assets/085fdf51-ac7a-467e-848a-71d47d82689b" />
+<img width="734" height="883" alt="image" src="https://github.com/user-attachments/assets/8e95cab6-d32b-4770-b673-668fb1bb7f95" />
+
+

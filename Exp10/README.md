@@ -98,6 +98,6 @@ Exp10/
 
 ## Screenshots
 
-![alt text](../screenshots/ex10a.png)
+![alt text](../ex10a.png)
 
-![alt text](../screenshots/ex10b.png)
+![alt text](../ex10b.png)

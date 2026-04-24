@@ -1,0 +1,89 @@
+.app {
+  text-align: center;
+  font-family: Arial;
+  font-size: 30px;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.chat-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+}
+
+.chat-section {
+  width: 320px;
+}
+
+.username {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background-color: #2c2c3e;
+  color: white;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input-area input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background-color: #2c2c3e;
+  color: white;
+}
+
+.input-area button {
+  width: 60%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, #6a5af9, #8f7cff);
+  color: white;
+  font-weight: bold;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background: linear-gradient(135deg, #5848e5, #7a68ff);
+}
+
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #444;
+  padding: 10px;
+  border-radius: 8px;
+  background: #2a2a3b;
+  text-align: left;
+  font-size: 20px;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background-color: #3a3a55;
+}
